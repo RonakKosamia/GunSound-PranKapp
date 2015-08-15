@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Rel"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@anim/anim_android"/>
+
+    <Button
+        android:id="@+id/extra"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/extra" />
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/share" />
+
+    <Button
+        android:id="@+id/strt"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:background="@drawable/strt"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/share" />
+
+</RelativeLayout>
